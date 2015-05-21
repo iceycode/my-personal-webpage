@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+    </script>
+
+    <!--import these to switch div with id container-->
+    <link rel="import" href="views/about.html" id="aboutHTML">
+    <link rel="import" href="views/education.html" id="eduHTML">
+    <link rel="import" href="views/skills.html" id="skillsHTML">
+    <link rel="import" href="views/experience.html" id="expHTML">
+    <link rel="import" href="views/contact.html" id="contactHTML">
+    <link rel="import" href="views/contact_info.html" id="infoHTML">
+
+    <title>Allen Jagoda Web Page</title>
+    <link rel="stylesheet" href="css/styles_landing.css">
+</head>
+
+<body>
+
+    <!--The main dividor containing menu/picture/contact info-->
+    <div class="topFrame">
+        <h1><b>ALLEN JAGODA</b></h1>
+        <h2 class="subTitle"><b>Cross Platform Mobile App and Game Developer</b></h2>
+    </div>
+
+
+    <!--2nd Container: picture & info-->
+    <div class="info">
+        <img src="/images/picInFrame.png" class="picInFrame">
+        <ul>
+            <li class="email"><a href="mailto:ajagoda@u.rochester.edu?Subject=Hello%20" target="_top"><b>Email</b></a></a>
+            </li>
+            <li class="git"><a href="https://www.github.com/iceycode" target="_blank"><b>Github Repository</b> </li>
+        </ul>
+    </div>
+
+    <!--3nd Container, contains menu  -->
+    <div class="lineWave">
+        <button class="btnAbout"></button>
+        <button class="btnEdu"></button>
+        <button class="btnSkill"></button>
+        <button class="btnExp"></button>
+        <button class="btnContact"></button>
+    </div>
+
+    <!--4th Container: changes based on button click-->
+    <div id="container" class="detailDiv">
+        <!--HTML TEMPLATE CONTENT GOES IN HERE-->
+    </div>
+
+    <!--5th Container, bottom frame with ContactMe info-->
+    <div class="bottomFrame">
+        <button class="contactBtm"></button>
+    </div>
+</body>
+<script type="text/javascript" src="/js/script.js"></script>
+
+</html>

@@ -1,0 +1,7 @@
+{
+    "name": "my-personal-webpage",
+    "dependencies": {
+        "jquery": ">=2.0.0",
+        "jquery-ui": ">=1.10"
+    }
+}

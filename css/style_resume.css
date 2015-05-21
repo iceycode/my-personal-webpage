@@ -1,0 +1,136 @@
+
+
+/*-------Main Background for entire page------*/
+html{
+  background-color: rgb( 51, 51, 51 );
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+  height: 1800px;
+/*Higher z-index == more to front*/
+  z-index: 1;
+}
+
+
+/*
+-----------IMAGES-------------
+*/
+.picInFrame{
+    background: url(/images/picInFrame.png);
+    width: 1200px;
+    height: 1800px;
+    top: 0px;
+    left: 0px;
+}
+
+.topFrame{
+    background: url(/images/tab.png);
+    width: 1200px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+}
+
+.bottomFrame{
+    background: url(/images/tab.png);
+    width: 1200px;
+    height: 100px;
+    top: 1700px;
+    left: 0px;
+}
+
+.lineLeft{
+    background: url(/images/line-left.png);
+    bottom: 100px;
+    z-index: 2;
+    left: 188px;
+    height: 1600px;
+    width: 28px;
+}
+
+
+/*Contanct Info list items*/
+img.phone{
+/*    font: 400 24px 'Myriad Pro';*/
+/*    color: #00ff66;*/
+    background: url("/images/phoneIcon.png");
+    width: 40px;
+    height: 40px;
+}
+
+img.email{
+/*    font: 400 24px 'Myriad Pro';*/
+/*    color: #00ff66;*/
+/*    left: 300px;*/
+    width: 37px;
+    height: 25px;
+    background: url("/images/emailIcon.png");
+}
+
+/*
+----------FONT DECORATORS----------
+*/
+
+/*Work Title & Contact font info*/
+h3{
+    color: #00ff00;
+    font: 400 18px 'Myriad Pro';
+}
+
+/*CONTACT ME Font/Style/Position*/
+h3.contactMe{
+    color:#333333;
+    font: 400 24px 'Myriad Pro';
+    text-decoration: underline;
+    width: 141px;
+    height: 22px;
+    top: 1737px;
+    left: 693px;
+}
+
+/*Light Green and 18px large*/
+span.title{
+    color: #00ff00;
+    font: 400 18px 'Myriad Pro';
+}
+
+/*Same as above, but also underlined*/
+span.title_ul{
+    color: #00ff00;
+    font: 400 18px 'Myriad Pro';
+    text-decoration: underline;
+}
+
+/*for contact error*/
+span.error{
+    color: #f80000;
+    font: 400 18px 'Myriad Pro';
+}
+
+/*For Contact Form Label*/
+label.title{
+    color: #00ff00;
+    font: 400 18px 'Myriad Pro';
+}
+
+/*Detial text - not a subtitle/title/header*/
+p.detailText{
+    font: 400 16px 'Myriad Pro';
+    color: #00ff66;
+    max-width: 500;
+    height: 729px;
+    margin: 0 auto;
+    padding: 20px;
+    white-space: pre-wrap;
+}
+
+/*For form field buttons: send & reset*/
+input.formBtn{
+    background:url(/images/menuButton.png);
+    position: absolute;
+    width: 197px;
+    height: 74px;
+    border: none;
+}
+

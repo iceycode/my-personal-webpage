@@ -1,0 +1,12 @@
++ Create Main Page
+- Create side menu (drawers)
+- Link to EJuice Toolkit Web App
+- KEEP IT SIMPLE
+
+# Components
+- Technical Details
+- Experiences
++ About Me
+- Full Resume
+- Contact Me: Fill Form
+

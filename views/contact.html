@@ -1,0 +1,31 @@
+<head>
+    <link rel="stylesheet" href="/css/style_resume.css">
+</head>
+<template class = "template">
+    <div id="inner">
+<!--       action = "/php/contact.php" -->
+        <form action = "/php/contact2.php" spellcheck="true" method="post">
+            <label for = "name" class="title">Name:</label>
+            <input type = "text" name="name" size value="Allen" = 40>
+            <br>
+            <label for = "email" class = "title">Email:</label>
+            <input type = "email" name = "email" size = 40 value = "allen.jagoda@gmail.com">
+            <br>
+<!--
+            <label for = "subject" class="title">Subject:</label>
+            <input type = "text" name="subject" id="subject" value = "Enter Subject">
+            <br>
+-->
+            <label for = "message" class="title" value = "Enter message here">Message:</label>
+            <br>
+            <textarea name = "message" id="msgText" rows="7" cols="50" id="Inquiry" placeholder="Your message here"></textarea>
+            <br>
+            <input type="submit" value="Send" id="submit_btn" >
+            <input type="reset" value = "Reset" id="reset_btn">
+        </form>
+    </div>
+</template>
+<!--
+<script type="text/javascript" src="/js/email_script.js">
+</script>
+-->

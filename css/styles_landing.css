@@ -1,0 +1,296 @@
+/*for all elements*/
+* {
+    outline: none;
+    margin: 0;
+}
+
+/*Main Background Images*/
+html{
+  background-color: rgb( 51, 51, 51 );
+  position: absolute;
+  left: 0px;
+  margin: 0;
+  top: 0px;
+  width: 1200px;
+  height: 1500px;
+/*Higher z-index == more to front*/
+/*  z-index: 1; */
+}
+
+div{
+    border: none;
+    border: 0;
+    margin: 0;
+    outline: 0;
+}
+
+img{
+    border: 0;
+}
+
+/*Green tabs at top & bottom*/
+div.topFrame{
+    background: url(/images/tab.png);
+    width: 1200px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    margin-bottom: 10px;
+}
+
+div.info{
+    outline: none;
+    border: none;
+    border-style: none;
+    margin-left: 10px;
+}
+
+/*Wavey line which holds on menu buttons*/
+div.lineWave{
+    background: url(/images/lineWave.png);
+    width: 1188px;
+    height: 422px;
+    position: absolute;
+    top: 505px;
+    bottom: 873px;
+    left: 0px;
+    right: 12px;
+}
+
+div.lineLeft{
+    background: url(/images/line-left.png);
+    bottom: 100px;
+    z-index: 2;
+    top: 0px;
+    left: 250px;
+    height: 1600px;
+    width: 28px;
+}
+
+div.bottomFrame{
+    background: url(/images/tab.png);
+    width: 1200px;
+    height: 100px;
+    position: absolute;
+    top: 1600px;
+    left: 0px;
+}
+
+/*Container for detailed text
+that shows after button clicked*/
+div.detailDiv{
+    top: 950px;
+    left: 100px;
+    position: absolute;
+}
+
+/*Picture at top left, below frame*/
+.picInFrame{
+    /* NOTE: if regular image, need to have a source
+      for no border to show
+      NEED TO HAVE THIS before class="" in HTML*/
+    background: url(/images/picInFrame.png);
+    border: 0;
+    border-style: none;
+    margin: 20;
+    width: 350px;
+    height: 350px;
+    top: 0px;
+    left: 0px;
+}
+
+h1{
+    font: 400 24px 'Myriad Pro';
+    position:absolute;
+    top: 26px;
+    left: 450px;
+}
+
+/*for text on menu (if needed) info at top*/
+h2.subTitle{
+    font: 400 24px 'Myriad Pro';
+    font-style: italic;
+    top: 52px;
+    left: 450px;
+    position: absolute;
+}
+
+/*----CONTACT LIST ITEM STYLES------
+the "#" is for id
+*/
+li.phone{
+    font: 400 24px 'Myriad Pro';
+    color: #00ff66;
+    list-style-image: url("/images/phoneIcon.png");
+    list-style-position: outside;
+    position: absolute;
+    top: 165px;
+    left: 651px;
+    width: 267px;
+    height: 23px;
+}
+
+li.email{
+    font: 400 24px 'Myriad Pro';
+    color: #00ff66;
+    position: absolute;
+    list-style-image: url("/images/emailIcon.png");
+    top:263px;
+    left:651px;
+}
+
+li.git{
+    font: 400 24px 'Myriad Pro';
+    color: #00ff66;
+    position: absolute;
+    list-style-image: url("/images/gitIcon.png");
+    left:651px;
+    top: 354px;
+    width: 301px;
+    height: 24px;
+}
+
+/*----------MENU BUTTONS------------*/
+button.btnAbout{
+    background:url(/images/btnAbout.png);
+    top: 0px;
+    left: 14px;
+    position: absolute;
+    width: 197px;
+    height: 74px;
+    border: none;
+}
+
+button.btnEdu{
+    background: url(/images/btnEdu.png);
+    top: 300px;
+    left: 161px;
+    position: absolute;
+    width: 197px;
+    height: 74px;
+    border: none;
+}
+
+button.btnSkill{
+    background: url(/images/btnSkill.png);
+    top: 0px;
+    left: 358px;
+    position: absolute;
+    width: 197px;
+    height: 74px;
+    border: none;
+}
+
+button.btnExp{
+    background: url(/images/btnExp.png);
+    top: 300px;
+    left: 530px;
+    position: absolute;
+    width: 197px;
+    height: 74px;
+    border: none;
+}
+
+button.btnContact{
+    background: url(/images/btnContact.png);
+    top: 0px;
+    left: 741px;
+    position: absolute;
+    width: 197px;
+    height: 74px;
+    border: none;
+}
+
+button.contactBtm{
+    background: url(/images/contactMeText.png);
+    bottom: 38px;
+    position: absolute;
+    left: 720px;
+    width: 123px;
+    height: 22px;
+    border: none;
+}
+
+/*Detial text - not a subtitle/title/header*/
+p.detailText{
+    font: 400 14px 'Myriad Pro';
+    color: #00ff66;
+    max-width: 577;
+    height: 729px;
+    margin: 0 auto;
+    padding: 20px;
+    white-space: pre-wrap;
+}
+
+/*-----LINK STYLES------*/
+/* unvisited link */
+a:link {
+    color: #00ff77;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #00FFAA;
+}
+
+/* selected link */
+a:active {
+    color: #00FFFF;
+}
+
+/*ALT MENU BUTTONS - LOCATION CHANGES*/
+button.btnAbout-alt{
+    background:url(/images/btnAbout.png);
+    top: 0px;
+    left: 5px;
+    position: absolute;
+    width: 197px;
+    height: 74px;
+    border: none;
+}
+
+button.btnEdu-alt{
+    background: url(/images/btnEdu.png);
+    top: 200px;
+    left: 5px;
+    position: absolute;
+    width: 197px;
+    height: 74px;
+    border: none;
+}
+
+button.btnSkill-alt{
+    background: url(/images/btnSkill.png);
+    top: 400px;
+    left: 5px;
+    position: absolute;
+    width: 197px;
+    height: 74px;
+    border: none;
+}
+
+button.btnExp-alt{
+    background: url(/images/btnExp.png);
+    top: 600px;
+    left: 5px;
+    position: absolute;
+    width: 197px;
+    height: 74px;
+    border: none;
+}
+
+button.btnContact-alt{
+    background: url(/images/btnContact.png);
+    top: 800px;
+    left: 5px;
+    position: absolute;
+    width: 197px;
+    height: 74px;
+    border: none;
+}
+
