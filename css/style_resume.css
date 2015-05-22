@@ -17,7 +17,7 @@ html{
 -----------IMAGES-------------
 */
 .picInFrame{
-    background: url(/images/picInFrame.png);
+    background: url(images/picInFrame.png);
     width: 1200px;
     height: 1800px;
     top: 0px;
@@ -25,7 +25,7 @@ html{
 }
 
 .topFrame{
-    background: url(/images/tab.png);
+    background: url(images/tab.png);
     width: 1200px;
     height: 100px;
     top: 0px;
@@ -33,7 +33,7 @@ html{
 }
 
 .bottomFrame{
-    background: url(/images/tab.png);
+    background: url(images/tab.png);
     width: 1200px;
     height: 100px;
     top: 1700px;
@@ -41,7 +41,7 @@ html{
 }
 
 .lineLeft{
-    background: url(/images/line-left.png);
+    background: url(images/line-left.png);
     bottom: 100px;
     z-index: 2;
     left: 188px;
@@ -54,7 +54,7 @@ html{
 img.phone{
 /*    font: 400 24px 'Myriad Pro';*/
 /*    color: #00ff66;*/
-    background: url("/images/phoneIcon.png");
+    background: url("images/phoneIcon.png");
     width: 40px;
     height: 40px;
 }
@@ -65,7 +65,7 @@ img.email{
 /*    left: 300px;*/
     width: 37px;
     height: 25px;
-    background: url("/images/emailIcon.png");
+    background: url("images/emailIcon.png");
 }
 
 /*

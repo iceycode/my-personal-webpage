@@ -30,7 +30,7 @@ img{
 
 /*Green tabs at top & bottom*/
 div.topFrame{
-    background: url(/images/tab.png);
+    background: url(images/tab.png);
     width: 1200px;
     height: 100px;
     top: 0px;
@@ -47,7 +47,7 @@ div.info{
 
 /*Wavey line which holds on menu buttons*/
 div.lineWave{
-    background: url(/images/lineWave.png);
+    background: url(images/lineWave.png);
     width: 1188px;
     height: 422px;
     position: absolute;
@@ -58,7 +58,7 @@ div.lineWave{
 }
 
 div.lineLeft{
-    background: url(/images/line-left.png);
+    background: url(images/line-left.png);
     bottom: 100px;
     z-index: 2;
     top: 0px;
@@ -68,7 +68,7 @@ div.lineLeft{
 }
 
 div.bottomFrame{
-    background: url(/images/tab.png);
+    background: url(images/tab.png);
     width: 1200px;
     height: 100px;
     position: absolute;
@@ -89,7 +89,7 @@ div.detailDiv{
     /* NOTE: if regular image, need to have a source
       for no border to show
       NEED TO HAVE THIS before class="" in HTML*/
-    background: url(/images/picInFrame.png);
+    background: url(images/picInFrame.png);
     border: 0;
     border-style: none;
     margin: 20;
@@ -121,7 +121,7 @@ the "#" is for id
 li.phone{
     font: 400 24px 'Myriad Pro';
     color: #00ff66;
-    list-style-image: url("/images/phoneIcon.png");
+    list-style-image: url("images/phoneIcon.png");
     list-style-position: outside;
     position: absolute;
     top: 165px;
@@ -134,7 +134,7 @@ li.email{
     font: 400 24px 'Myriad Pro';
     color: #00ff66;
     position: absolute;
-    list-style-image: url("/images/emailIcon.png");
+    list-style-image: url("images/emailIcon.png");
     top:263px;
     left:651px;
 }
@@ -143,7 +143,7 @@ li.git{
     font: 400 24px 'Myriad Pro';
     color: #00ff66;
     position: absolute;
-    list-style-image: url("/images/gitIcon.png");
+    list-style-image: url("images/gitIcon.png");
     left:651px;
     top: 354px;
     width: 301px;
@@ -152,7 +152,7 @@ li.git{
 
 /*----------MENU BUTTONS------------*/
 button.btnAbout{
-    background:url(/images/btnAbout.png);
+    background:url(images/btnAbout.png);
     top: 0px;
     left: 14px;
     position: absolute;
@@ -162,7 +162,7 @@ button.btnAbout{
 }
 
 button.btnEdu{
-    background: url(/images/btnEdu.png);
+    background: url(images/btnEdu.png);
     top: 300px;
     left: 161px;
     position: absolute;
@@ -172,7 +172,7 @@ button.btnEdu{
 }
 
 button.btnSkill{
-    background: url(/images/btnSkill.png);
+    background: url(images/btnSkill.png);
     top: 0px;
     left: 358px;
     position: absolute;
@@ -182,7 +182,7 @@ button.btnSkill{
 }
 
 button.btnExp{
-    background: url(/images/btnExp.png);
+    background: url(images/btnExp.png);
     top: 300px;
     left: 530px;
     position: absolute;
@@ -192,7 +192,7 @@ button.btnExp{
 }
 
 button.btnContact{
-    background: url(/images/btnContact.png);
+    background: url(images/btnContact.png);
     top: 0px;
     left: 741px;
     position: absolute;
@@ -202,7 +202,7 @@ button.btnContact{
 }
 
 button.contactBtm{
-    background: url(/images/contactMeText.png);
+    background: url(images/contactMeText.png);
     bottom: 38px;
     position: absolute;
     left: 720px;
@@ -245,7 +245,7 @@ a:active {
 
 /*ALT MENU BUTTONS - LOCATION CHANGES*/
 button.btnAbout-alt{
-    background:url(/images/btnAbout.png);
+    background:url(images/btnAbout.png);
     top: 0px;
     left: 5px;
     position: absolute;
@@ -255,7 +255,7 @@ button.btnAbout-alt{
 }
 
 button.btnEdu-alt{
-    background: url(/images/btnEdu.png);
+    background: url(images/btnEdu.png);
     top: 200px;
     left: 5px;
     position: absolute;
@@ -265,7 +265,7 @@ button.btnEdu-alt{
 }
 
 button.btnSkill-alt{
-    background: url(/images/btnSkill.png);
+    background: url(images/btnSkill.png);
     top: 400px;
     left: 5px;
     position: absolute;
@@ -275,7 +275,7 @@ button.btnSkill-alt{
 }
 
 button.btnExp-alt{
-    background: url(/images/btnExp.png);
+    background: url(images/btnExp.png);
     top: 600px;
     left: 5px;
     position: absolute;
@@ -285,7 +285,7 @@ button.btnExp-alt{
 }
 
 button.btnContact-alt{
-    background: url(/images/btnContact.png);
+    background: url(images/btnContact.png);
     top: 800px;
     left: 5px;
     position: absolute;
