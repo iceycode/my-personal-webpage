@@ -9,7 +9,7 @@ html{
   background-color: rgb( 51, 51, 51 );
   position: absolute;
   left: 0px;
-  margin: 0;
+  margin: 0px;
   top: 0px;
   width: 1200px;
   height: 1500px;
@@ -35,7 +35,6 @@ div.topFrame{
     height: 100px;
     top: 0px;
     left: 0px;
-    margin-bottom: 10px;
 }
 
 div.info{
@@ -57,21 +56,21 @@ div.lineWave{
     right: 12px;
 }
 
-div.lineLeft{
-    background: url(images/line-left.png);
-    bottom: 100px;
+div.menu{
+
     z-index: 2;
-    top: 0px;
-    left: 250px;
+    top: 100px;
+    left: 0px;
+    position: absolute;
     height: 1600px;
-    width: 28px;
+/*    width: 28px;*/
 }
 
 div.bottomFrame{
     background: url(images/tab.png);
     width: 1200px;
     height: 100px;
-    position: absolute;
+    position: relative;
     top: 1600px;
     left: 0px;
 }
@@ -79,8 +78,8 @@ div.bottomFrame{
 /*Container for detailed text
 that shows after button clicked*/
 div.detailDiv{
-    top: 950px;
-    left: 100px;
+    top: 520px;
+    left: 320px;
     position: absolute;
 }
 
@@ -90,13 +89,22 @@ div.detailDiv{
       for no border to show
       NEED TO HAVE THIS before class="" in HTML*/
     background: url(images/picInFrame.png);
-    border: 0;
-    border-style: none;
-    margin: 20;
+    border: none;
+    position: relative;
     width: 350px;
     height: 350px;
+    top: 50px;
+    left: -150px;
+    z-index: 3;
+}
+
+.leftline{
+    background: url(images/line-left.png);
     top: 0px;
-    left: 0px;
+    left 250px;
+    height: 1600px;
+    width: 28px;
+    position: absolute;
 }
 
 h1{
@@ -124,7 +132,7 @@ li.phone{
     list-style-image: url("images/phoneIcon.png");
     list-style-position: outside;
     position: absolute;
-    top: 165px;
+    top: 100px;
     left: 651px;
     width: 267px;
     height: 23px;
@@ -135,7 +143,7 @@ li.email{
     color: #00ff66;
     position: absolute;
     list-style-image: url("images/emailIcon.png");
-    top:263px;
+    top:200px;
     left:651px;
 }
 
@@ -145,7 +153,7 @@ li.git{
     position: absolute;
     list-style-image: url("images/gitIcon.png");
     left:651px;
-    top: 354px;
+    top: 300px;
     width: 301px;
     height: 24px;
 }
@@ -153,8 +161,8 @@ li.git{
 /*----------MENU BUTTONS------------*/
 button.btnAbout{
     background:url(images/btnAbout.png);
-    top: 0px;
-    left: 14px;
+    top: 450px;
+    left: 45px;
     position: absolute;
     width: 197px;
     height: 74px;
@@ -163,8 +171,8 @@ button.btnAbout{
 
 button.btnEdu{
     background: url(images/btnEdu.png);
-    top: 300px;
-    left: 161px;
+    top: 600px;
+    left: 45px;
     position: absolute;
     width: 197px;
     height: 74px;
@@ -173,8 +181,8 @@ button.btnEdu{
 
 button.btnSkill{
     background: url(images/btnSkill.png);
-    top: 0px;
-    left: 358px;
+    top: 750px;
+    left: 45px;
     position: absolute;
     width: 197px;
     height: 74px;
@@ -183,8 +191,8 @@ button.btnSkill{
 
 button.btnExp{
     background: url(images/btnExp.png);
-    top: 300px;
-    left: 530px;
+    top: 900px;
+    left: 45px;
     position: absolute;
     width: 197px;
     height: 74px;
@@ -193,8 +201,8 @@ button.btnExp{
 
 button.btnContact{
     background: url(images/btnContact.png);
-    top: 0px;
-    left: 741px;
+    top: 1050px;
+    left: 45px;
     position: absolute;
     width: 197px;
     height: 74px;
@@ -225,7 +233,7 @@ p.detailText{
 /*-----LINK STYLES------*/
 /* unvisited link */
 a:link {
-    color: #00ff77;
+    color: #00ff66;
 }
 
 /* visited link */
@@ -242,55 +250,3 @@ a:hover {
 a:active {
     color: #00FFFF;
 }
-
-/*ALT MENU BUTTONS - LOCATION CHANGES*/
-button.btnAbout-alt{
-    background:url(images/btnAbout.png);
-    top: 0px;
-    left: 5px;
-    position: absolute;
-    width: 197px;
-    height: 74px;
-    border: none;
-}
-
-button.btnEdu-alt{
-    background: url(images/btnEdu.png);
-    top: 200px;
-    left: 5px;
-    position: absolute;
-    width: 197px;
-    height: 74px;
-    border: none;
-}
-
-button.btnSkill-alt{
-    background: url(images/btnSkill.png);
-    top: 400px;
-    left: 5px;
-    position: absolute;
-    width: 197px;
-    height: 74px;
-    border: none;
-}
-
-button.btnExp-alt{
-    background: url(images/btnExp.png);
-    top: 600px;
-    left: 5px;
-    position: absolute;
-    width: 197px;
-    height: 74px;
-    border: none;
-}
-
-button.btnContact-alt{
-    background: url(images/btnContact.png);
-    top: 800px;
-    left: 5px;
-    position: absolute;
-    width: 197px;
-    height: 74px;
-    border: none;
-}
-

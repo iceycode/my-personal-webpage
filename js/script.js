@@ -49,8 +49,6 @@ $(document).ready(function(){
         var content = getHTMLFragment('#aboutHTML'); //get template as DocumentFragment object
         document.querySelector('#container').appendChild(content); //append container element
 
-        //scroll to container
-        goToContainer();
     });
 
     $(".btnSkill").click(function(){
@@ -64,7 +62,6 @@ $(document).ready(function(){
         removeCurrent();
         var content = getHTMLFragment('#eduHTML'); //get template as DocumentFragment object
         document.querySelector('#container').appendChild(content);
-        goToContainer();
     });
 
     $(".btnExp").click(function(){

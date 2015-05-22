@@ -8,4 +8,5 @@
 + About Me
 + Full Resume
 - Contact Me: Fill Form
+- Welcome view
 
