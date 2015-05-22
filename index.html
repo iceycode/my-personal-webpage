@@ -4,9 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
-    </script>
+    <!-- 1. Load platform support before any code that touches the DOM. -->
+<!--    <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- 2. Load the components using an HTML Import -->
+<!--    <link rel="import" href="elements/proto-element.html">-->
+<!--    <link rel="import" href="elements/about-element.html">-->
 
     <!--import these to switch div with id container-->
     <link rel="import" href="views/about.html" id="aboutHTML">
@@ -23,24 +26,32 @@
 <body>
 
     <!--The main dividor containing menu/picture/contact info-->
-    <div class="topFrame">
+    <div id = "top" class="topFrame">
         <h1><b>ALLEN JAGODA</b></h1>
         <h2 class="subTitle"><b>Cross Platform Mobile App and Game Developer</b></h2>
     </div>
 
 
-    <!--2nd Container: picture & info-->
+    <!--2nd Container: picture, info and menu-->
+<!--
     <div class="info">
-        <img src="/images/picInFrame.png" class="picInFrame">
-        <ul>
-            <li class="email"><a href="mailto:ajagoda@u.rochester.edu?Subject=Hello%20" target="_top"><b>Email</b></a></a>
-            </li>
-            <li class="git"><a href="https://www.github.com/iceycode" target="_blank"><b>Github Repository</b> </li>
-        </ul>
+
     </div>
+-->
 
     <!--3nd Container, contains menu  -->
-    <div class="lineWave">
+    <div class="menu">
+      <div style="position: relative; left: 220px; top: 0;">
+       <img src="css/images/picInFrame.png" class="picInFrame">
+       <img src="css/images/line-left.png" class="leftline">
+       </div>
+        <ul>
+            <li class="phone"><b>630.284.9425</b>
+            </li>
+            <li class="email"><a href="mailto:ajagoda@u.rochester.edu?Subject=Hello%20" target="_top"><b>ajagoda@u.rochester.edu</b> </a>
+            </li>
+            <li class="git"><a href="https://www.github.com/iceycode" target="_blank"<b>Github Repository</b> </a> </li>
+        </ul>
         <button class="btnAbout"></button>
         <button class="btnEdu"></button>
         <button class="btnSkill"></button>
