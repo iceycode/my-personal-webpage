@@ -4,12 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 1. Load platform support before any code that touches the DOM. -->
-<!--    <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>-->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <!-- 2. Load the components using an HTML Import -->
-<!--    <link rel="import" href="elements/proto-element.html">-->
-<!--    <link rel="import" href="elements/about-element.html">-->
 
     <!--import these to switch div with id container-->
     <link rel="import" href="views/about.html" id="aboutHTML">
@@ -25,21 +20,14 @@
 
 <body>
 
-    <!--The main dividor containing menu/picture/contact info-->
+    <!--The top frame containing title-->
     <div id = "top" class="topFrame">
         <h1><b>ALLEN JAGODA</b></h1>
         <h2 class="subTitle"><b>Cross Platform Mobile App and Game Developer</b></h2>
     </div>
 
 
-    <!--2nd Container: picture, info and menu-->
-<!--
-    <div class="info">
-
-    </div>
--->
-
-    <!--3nd Container, contains menu  -->
+    <!--2nd Container: picture, contact info list, menu items-->
     <div class="menu">
       <div style="position: relative; left: 220px; top: 0;">
        <img src="css/images/picInFrame.png" class="picInFrame">
@@ -59,12 +47,12 @@
         <button class="btnContact"></button>
     </div>
 
-    <!--4th Container: changes based on button click-->
+    <!--3rd Container: changes based on button click-->
     <div id="container" class="detailDiv">
-        <!--HTML TEMPLATE CONTENT GOES IN HERE-->
+        <!--HTML template content from /views goes here-->
     </div>
 
-    <!--5th Container, bottom frame with ContactMe info-->
+    <!--4th Container, bottom frame with ContactMe info-->
     <div class="bottomFrame">
         <button class="contactBtm"></button>
     </div>
