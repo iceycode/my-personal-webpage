@@ -8,6 +8,10 @@ Basically this is my online resume. On top of that it shows I can do web program
 
 ####ChangeLog###
 
+*05-26-2015*
+- fixed a small bug in master branch index.html
+- using correct components in bower for jquery script source
+
 *05-20-2015*
 - initial push to repository
 - created an alternate view, index.html, along with script-alt.js
